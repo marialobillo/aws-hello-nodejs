@@ -2,7 +2,7 @@ const express = require('express');
 
 const app = express();
 
-app.get('/', (req, res) => res.send('Hello World with Express.js!'));
+app.get('/', (req, res) => res.send("<h1>Expressjs with HTML"));
 
 app.listen(3000);
 
